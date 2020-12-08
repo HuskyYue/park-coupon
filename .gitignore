@@ -1,0 +1,6 @@
+# Project exclude paths
+/coupon-eureka/target/
+/coupon-gateway/target/
+/park-coupon-service/coupon-common/target/
+/park-coupon-service/coupon-distribution/target/
+/park-coupon-service/coupon-template/target/

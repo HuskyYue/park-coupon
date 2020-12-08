@@ -1,0 +1,29 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: coupon-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+
+zuul:
+  prefix: /park
+  routes:
+    #优惠券模板微服务路由配置定义
+    template:
+      path: /coupon-template/**
+      serviceId: eureka-client-coupon-template
+      #是否跳过前缀进行转发
+      strip-prefix: false
+      #/coupon-template/a/b 当strip-prefix默认为true,所以转发后变为 /a/b
+  host:
+    connect-timeout-millis: 15000
+    socket-timeout-millis: 60000
+
+ribbon:
+  ConnectionTimeout: 15000
+  ReadTimeout: 15000
