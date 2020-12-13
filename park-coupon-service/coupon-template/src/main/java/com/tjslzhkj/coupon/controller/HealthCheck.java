@@ -37,7 +37,7 @@ public class HealthCheck {
     /**
      * <h2>健康检查接口</h2>
      * 127.0.0.1:7001/coupon-template/health
-     * 127.0.0.1:9000/imooc/coupon-template/health
+     * 127.0.0.1:9000/coupon-template/health
      * */
     @GetMapping("/health")
     public String health() {
@@ -48,7 +48,7 @@ public class HealthCheck {
     /**
      * <h2>异常测试接口</h2>
      * 127.0.0.1:7001/coupon-template/exception
-     * 127.0.0.1:9000/imooc/coupon-template/exception
+     * 127.0.0.1:9000/coupon-template/exception
      * */
     @GetMapping("/exception")
     public String exception() throws CouponException {
@@ -60,7 +60,7 @@ public class HealthCheck {
     /**
      * <h2>获取 Eureka Server 上的微服务元信息</h2>
      * 127.0.0.1:7001/coupon-template/info
-     * 127.0.0.1:9000/imooc/coupon-template/info
+     * 127.0.0.1:9000/coupon-template/info
      * */
     @GetMapping("/info")
     public List<Map<String, Object>> info() {

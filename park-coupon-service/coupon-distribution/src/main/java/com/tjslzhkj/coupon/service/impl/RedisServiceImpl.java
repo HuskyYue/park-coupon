@@ -82,7 +82,7 @@ public class RedisServiceImpl implements IRedisService {
                 return null;
             }
         };
-        log.info("Pipeline exe result: {}", JSON.toJSONString(sessionCallback));
+        log.info("Pipeline exe result: {}", JSON.toJSONString(redisTemplate.executePipelined(sessionCallback)));
 
     }
 

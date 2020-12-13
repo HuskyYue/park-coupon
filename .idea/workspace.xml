@@ -17,313 +17,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f82c5e-2eb6-4185-9673-b5fff6bfc2ad" name="Default Changelist" comment="husky Yue commit&#10;the park-coupon">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3b6830c1-6ce8-48b1-b8fb-b8f15c92aed9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3b6830c1-6ce8-48b1-b8fb-b8f15c92aed9/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_34_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_34_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_34_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_34_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_34_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_34_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_9_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/park-coupon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-eureka/coupon-eureka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-eureka/src/main/java/com/tjslzhkj/coupon/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-eureka/src/main/java/com/tjslzhkj/coupon/collector/WordCounterSpliterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-eureka/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-gateway/coupon-gateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/ZuulGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/AbstractPostZuulFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/AbstractPreZuulFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/AbstractZuulFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/AccessLogFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/PreRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/RateLimiterFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/TokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/coupon-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/advice/BaseResponseDataAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/advice/GlobalExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/annotation/IgnoreResponseAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/conf/JacksonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/conf/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/constant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/constant/CouponCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/constant/DistributeTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/constant/GoodsType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/constant/PeriodType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/constant/ProductLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/exception/CouponException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/vo/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/vo/CouponTemplateSDK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/vo/GoodsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/vo/SettlementInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/vo/StatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/coupon/vo/TemplateRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/coupon-distribution.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/DistributionApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/Feign/SettlementClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/Feign/TemplateClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/Feign/hystrix/SettlementClientHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/Feign/hystrix/TemplateClientHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/constant/CouponStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/converter/CouponStatusConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/dao/CouponDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/entity/Coupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/serialization/CouponSerialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/IKafkaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/IRedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/KafkaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/vo/AcquireTemplateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/vo/CouponClassify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/vo/CouponKafkaMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/coupon-template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/TemplateApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/config/AsyncPoolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/controller/CouponTemplateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/controller/HealthCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/converter/CouponCategoryConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/converter/DistributeTargetConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/converter/ProductLineConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/converter/RuleConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/dao/CouponTemplateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/entity/CouponTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/schedule/ScheduledTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/serialization/CouponTemplateSerialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/service/IAsyncService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/service/IBuildTemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/service/ITemplateBaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/service/impl/AsyncServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/service/impl/BuildTemplateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/service/impl/TemplateBaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/vo/TemplateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/resources/sql/create_db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/resources/sql/create_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/test/java/com/tjslzhkj/coupon/TemplateApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/test/java/com/tjslzhkj/coupon/service/BuildTemplateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/test/java/com/tjslzhkj/coupon/service/TemplateBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/park-coupon-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/controller/RibbonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/controller/UserServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/test/java/com/tjslzhkj/coupon/DistributionApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/test/java/com/tjslzhkj/coupon/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/park-coupon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/park-coupon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-eureka/coupon-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-eureka/coupon-eureka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-gateway/coupon-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-gateway/coupon-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-common/coupon-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/coupon-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/coupon-distribution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/coupon-distribution.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/controller/HealthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/controller/HealthCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park-coupon-service/park-coupon-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/park-coupon-service.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,6 +51,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/AccessLogFilter.java" root0="FORCE_HIGHLIGHTING" />
@@ -353,7 +64,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1jM7nWnexYKBwr71uDnkqZaWy5q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -370,11 +83,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4039321" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.21818182" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="ReactorSettings">
@@ -392,79 +106,85 @@
       <recent name="$PROJECT_DIR$/park-coupon-service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.tjslzhkj.coupon.vo in coupon-distribution">
-    <configuration name="BuildTemplateTest.testBuildTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coupon-template" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tjslzhkj.coupon.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon.service" />
-      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.service.BuildTemplateTest" />
-      <option name="METHOD_NAME" value="testBuildTemplate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemplateBaseTest.testBuildTemplateInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coupon-template" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tjslzhkj.coupon.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon.service" />
-      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.service.TemplateBaseTest" />
-      <option name="METHOD_NAME" value="testBuildTemplateInfo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemplateBaseTest.testFindAllUnableTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coupon-template" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tjslzhkj.coupon.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon.service" />
-      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.service.TemplateBaseTest" />
-      <option name="METHOD_NAME" value="testFindAllUnableTemplate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.tjslzhkj.coupon.service.impl in coupon-distribution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserServiceTest.testFindAvailableTemplate">
+    <configuration name="DistributionApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coupon-distribution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tjslzhkj.coupon.service.impl.*" />
+          <option name="PATTERN" value="com.tjslzhkj.coupon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon.service.impl" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon" />
+      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.DistributionApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tjslzhkj.coupon.vo in coupon-distribution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DistributionApplicationTests.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coupon-distribution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tjslzhkj.coupon.vo.*" />
+          <option name="PATTERN" value="com.tjslzhkj.coupon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon.vo" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon" />
+      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.DistributionApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateApplicationTests.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coupon-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tjslzhkj.coupon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon" />
+      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.TemplateApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.testFindAvailableTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coupon-distribution" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tjslzhkj.coupon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon" />
+      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.UserServiceTest" />
+      <option name="METHOD_NAME" value="testFindAvailableTemplate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Dspring.output.ansi.enabled=ALWAYS" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.testFindCouponByStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coupon-distribution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tjslzhkj.coupon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon" />
+      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.UserServiceTest" />
+      <option name="METHOD_NAME" value="testFindCouponByStatus" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -504,13 +224,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.DistributionApplicationTests" />
+      <item itemvalue="JUnit.DistributionApplicationTests.contextLoad" />
+      <item itemvalue="JUnit.TemplateApplicationTests.contextLoad" />
+      <item itemvalue="JUnit.UserServiceTest.testFindAvailableTemplate" />
+      <item itemvalue="JUnit.UserServiceTest.testFindCouponByStatus" />
+      <item itemvalue="Spring Boot.DistributionApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication (1)" />
+      <item itemvalue="Spring Boot.TemplateApplication" />
+      <item itemvalue="Spring Boot.ZuulGatewayApplication" />
+      <item itemvalue="Spring Boot.ZuulGatewayApplication (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.tjslzhkj.coupon.vo in coupon-distribution" />
-        <item itemvalue="JUnit.com.tjslzhkj.coupon.service.impl in coupon-distribution" />
-        <item itemvalue="JUnit.BuildTemplateTest.testBuildTemplate" />
-        <item itemvalue="JUnit.TemplateBaseTest.testBuildTemplateInfo" />
-        <item itemvalue="JUnit.TemplateBaseTest.testFindAllUnableTemplate" />
+        <item itemvalue="JUnit.UserServiceTest.testFindCouponByStatus" />
+        <item itemvalue="JUnit.UserServiceTest.testFindAvailableTemplate" />
+        <item itemvalue="JUnit.DistributionApplicationTests" />
+        <item itemvalue="JUnit.TemplateApplicationTests.contextLoad" />
+        <item itemvalue="JUnit.DistributionApplicationTests.contextLoad" />
       </list>
     </recent_temporary>
   </component>
@@ -573,8 +305,21 @@
       <workItem from="1607256077964" duration="597000" />
       <workItem from="1607258880784" duration="9000" />
       <workItem from="1607344956458" duration="4077000" />
-      <workItem from="1607429629630" duration="823000" />
+      <workItem from="1607429629630" duration="7671000" />
+      <workItem from="1607510724176" duration="37000" />
+      <workItem from="1607516937677" duration="3114000" />
+      <workItem from="1607603562552" duration="3953000" />
+      <workItem from="1607822592423" duration="16976000" />
+      <workItem from="1607856153674" duration="2577000" />
     </task>
+    <task id="LOCAL-00001" summary="husky Yue commit&#10;the park-coupon">
+      <created>1607430598547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607430598547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,10 +372,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="80" y="0" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1606305554361" />
-    <state x="180" y="105" width="1223" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606310498697">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="236" y="125" width="1197" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607858203644">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state x="180" y="105" width="1223" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606310498697" />
+    <state x="236" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/61.23.1379.877@61.23.1379.877" timestamp="1607855842830" />
+    <state x="236" y="125" width="1197" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/64.23.1376.877@64.23.1376.877" timestamp="1607858203644" />
     <state x="486" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1607215700270">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -656,45 +403,57 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="213" y="86" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607347846011" />
-    <state width="1388" height="170" key="GridCell.Tab.0.bottom" timestamp="1607220369629">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="300" y="121" key="GrepConsoleSettings" timestamp="1607857697977">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
-    <state width="1388" height="170" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607220369629" />
+    <state x="300" y="121" key="GrepConsoleSettings/64.23.1376.877@64.23.1376.877" timestamp="1607857697977" />
+    <state width="1321" height="651" key="GridCell.Tab.0.bottom" timestamp="1607857742482">
+      <screen x="64" y="23" width="1376" height="877" />
+    </state>
+    <state width="1388" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607855069043" />
+    <state width="1321" height="651" key="GridCell.Tab.0.bottom/64.23.1376.877@64.23.1376.877" timestamp="1607857742482" />
     <state width="1321" height="247" key="GridCell.Tab.0.bottom/67.23.1373.877@67.23.1373.877" timestamp="1605923198035" />
-    <state width="1388" height="170" key="GridCell.Tab.0.center" timestamp="1607220369628">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1321" height="651" key="GridCell.Tab.0.center" timestamp="1607857742480">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
-    <state width="1388" height="170" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607220369628" />
+    <state width="1388" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607855069040" />
+    <state width="1321" height="651" key="GridCell.Tab.0.center/64.23.1376.877@64.23.1376.877" timestamp="1607857742480" />
     <state width="1321" height="247" key="GridCell.Tab.0.center/67.23.1373.877@67.23.1373.877" timestamp="1605923198035" />
-    <state width="1388" height="170" key="GridCell.Tab.0.left" timestamp="1607220369626">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1321" height="651" key="GridCell.Tab.0.left" timestamp="1607857742479">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
-    <state width="1388" height="170" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607220369626" />
+    <state width="1388" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607855069039" />
+    <state width="1321" height="651" key="GridCell.Tab.0.left/64.23.1376.877@64.23.1376.877" timestamp="1607857742479" />
     <state width="1321" height="247" key="GridCell.Tab.0.left/67.23.1373.877@67.23.1373.877" timestamp="1605923198034" />
-    <state width="1388" height="170" key="GridCell.Tab.0.right" timestamp="1607220369628">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1321" height="651" key="GridCell.Tab.0.right" timestamp="1607857742481">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
-    <state width="1388" height="170" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607220369628" />
+    <state width="1388" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607855069041" />
+    <state width="1321" height="651" key="GridCell.Tab.0.right/64.23.1376.877@64.23.1376.877" timestamp="1607857742481" />
     <state width="1321" height="247" key="GridCell.Tab.0.right/67.23.1373.877@67.23.1373.877" timestamp="1605923198035" />
-    <state width="1388" height="196" key="GridCell.Tab.1.bottom" timestamp="1606317996943">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1321" height="651" key="GridCell.Tab.1.bottom" timestamp="1607857742371">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
-    <state width="1388" height="196" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606317996943" />
+    <state width="1388" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607855068925" />
+    <state width="1321" height="651" key="GridCell.Tab.1.bottom/64.23.1376.877@64.23.1376.877" timestamp="1607857742371" />
     <state width="1321" height="247" key="GridCell.Tab.1.bottom/67.23.1373.877@67.23.1373.877" timestamp="1605923198037" />
-    <state width="1388" height="196" key="GridCell.Tab.1.center" timestamp="1606317996942">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1321" height="651" key="GridCell.Tab.1.center" timestamp="1607857742371">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
-    <state width="1388" height="196" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606317996942" />
+    <state width="1388" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1607855068924" />
+    <state width="1321" height="651" key="GridCell.Tab.1.center/64.23.1376.877@64.23.1376.877" timestamp="1607857742371" />
     <state width="1321" height="247" key="GridCell.Tab.1.center/67.23.1373.877@67.23.1373.877" timestamp="1605923198036" />
-    <state width="1388" height="196" key="GridCell.Tab.1.left" timestamp="1606317996942">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1321" height="651" key="GridCell.Tab.1.left" timestamp="1607857742370">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
-    <state width="1388" height="196" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606317996942" />
+    <state width="1388" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1607855068923" />
+    <state width="1321" height="651" key="GridCell.Tab.1.left/64.23.1376.877@64.23.1376.877" timestamp="1607857742370" />
     <state width="1321" height="247" key="GridCell.Tab.1.left/67.23.1373.877@67.23.1373.877" timestamp="1605923198036" />
-    <state width="1388" height="196" key="GridCell.Tab.1.right" timestamp="1606317996943">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1321" height="651" key="GridCell.Tab.1.right" timestamp="1607857742371">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
-    <state width="1388" height="196" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606317996943" />
+    <state width="1388" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607855068924" />
+    <state width="1321" height="651" key="GridCell.Tab.1.right/64.23.1376.877@64.23.1376.877" timestamp="1607857742371" />
     <state width="1321" height="247" key="GridCell.Tab.1.right/67.23.1373.877@67.23.1373.877" timestamp="1605923198037" />
     <state width="1388" height="160" key="GridCell.Tab.2.bottom" timestamp="1605613984420">
       <screen x="67" y="23" width="1373" height="877" />
@@ -720,18 +479,23 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="205" y="130" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1604583758229" />
-    <state x="65" y="3" key="SettingsEditor" timestamp="1607430523802">
+    <state x="71" y="23" width="1342" height="877" key="SettingsEditor" timestamp="1607864573545">
+      <screen x="64" y="23" width="1376" height="877" />
+    </state>
+    <state x="0" y="0" width="1440" height="900" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607855581776" />
+    <state x="71" y="23" width="1342" height="877" key="SettingsEditor/64.23.1376.877@64.23.1376.877" timestamp="1607864573545" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1607825392994">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="65" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607430523802" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1607430030235">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607825392994" />
+    <state x="10" y="123" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607854821816">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607430030235" />
-    <state x="335" y="142" width="963" height="616" key="find.popup" timestamp="1607168943410">
+    <state x="10" y="123" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1607854821816" />
+    <state x="335" y="142" width="963" height="616" key="find.popup" timestamp="1607827573204">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="335" y="142" width="963" height="616" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1607168943410" />
+    <state x="335" y="142" width="963" height="616" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1607827573204" />
     <state x="333" y="201" key="git4idea.merge.GitPullDialog" timestamp="1607430178041">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -744,14 +508,57 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="36" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1606305623696" />
-    <state x="349" y="23" width="838" height="1006" key="search.everywhere.popup" timestamp="1606558331425">
-      <screen x="61" y="23" width="1379" height="877" />
+    <state x="437" y="322" width="789" height="510" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607864572002">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
-    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604417853844" />
+    <state x="437" y="322" width="789" height="510" key="org.intellij.images.editor.actions.BackgroundImageDialog/64.23.1376.877@64.23.1376.877" timestamp="1607864572002" />
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1607825699949">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607825699949" />
     <state x="349" y="23" width="838" height="1006" key="search.everywhere.popup/61.23.1379.877@61.23.1379.877" timestamp="1606558331425" />
     <state x="64" y="69" key="spring file set editor" timestamp="1606305552839">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="64" y="69" key="spring file set editor/0.0.1440.900@0.0.1440.900" timestamp="1606305552839" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/RedisServiceImpl.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/UserServiceImpl.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/RedisServiceImpl.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/RedisServiceImpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/IUserService.java</url>
+          <line>28</line>
+          <properties class="com.tjslzhkj.coupon.service.IUserService" method="findCouponsByStatus">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/park_coupon$TemplateApplicationTests_contextLoad.ic" NAME="TemplateApplicationTests.contextLoad Coverage Results" MODIFIED="1607851819136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tjslzhkj.coupon.*</FILTER>
+    </SUITE>
   </component>
 </project>
