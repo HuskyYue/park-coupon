@@ -17,23 +17,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f82c5e-2eb6-4185-9673-b5fff6bfc2ad" name="Default Changelist" comment="husky Yue commit&#10;the park-coupon">
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/controller/RibbonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/controller/UserServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/test/java/com/tjslzhkj/coupon/DistributionApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/test/java/com/tjslzhkj/coupon/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/park-coupon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/park-coupon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/coupon-settlement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/SettlementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/constant/RuleFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/AbstractExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/RuleExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/impl/LiJianExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/impl/ManJianExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/impl/ZheKouExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-eureka/coupon-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-eureka/coupon-eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon-gateway/coupon-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-gateway/coupon-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-common/coupon-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-common/coupon-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/coupon-distribution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/coupon-distribution.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/controller/HealthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/java/com/tjslzhkj/coupon/controller/HealthCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park-coupon-service/park-coupon-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/park-coupon-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +65,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -310,7 +304,8 @@
       <workItem from="1607516937677" duration="3114000" />
       <workItem from="1607603562552" duration="3953000" />
       <workItem from="1607822592423" duration="16976000" />
-      <workItem from="1607856153674" duration="2577000" />
+      <workItem from="1607856153674" duration="6621000" />
+      <workItem from="1607951475576" duration="4134000" />
     </task>
     <task id="LOCAL-00001" summary="husky Yue commit&#10;the park-coupon">
       <created>1607430598547</created>
@@ -319,7 +314,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607430598547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="coupon-distribution yuezejian">
+      <created>1607864803212</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607864803212</updated>
+    </task>
+    <task id="LOCAL-00003" summary="husky Yue commit&#10;the park-coupon">
+      <created>1607864823233</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607864823233</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +364,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="coupon-distribution yuezejian" />
     <MESSAGE value="husky Yue commit&#10;the park-coupon" />
     <option name="LAST_COMMIT_MESSAGE" value="husky Yue commit&#10;the park-coupon" />
   </component>
@@ -378,10 +389,10 @@
     <state x="180" y="105" width="1223" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606310498697" />
     <state x="236" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/61.23.1379.877@61.23.1379.877" timestamp="1607855842830" />
     <state x="236" y="125" width="1197" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/64.23.1376.877@64.23.1376.877" timestamp="1607858203644" />
-    <state x="486" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1607215700270">
+    <state x="486" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1607955261859">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="486" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1607215700270" />
+    <state x="486" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1607955261859" />
     <state x="526" y="118" key="#com.intellij.ide.util.MemberChooser/61.23.1379.877@61.23.1379.877" timestamp="1606557387422" />
     <state x="133" y="368" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604417404132">
       <screen x="0" y="0" width="1440" height="900" />
@@ -407,53 +418,53 @@
       <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state x="300" y="121" key="GrepConsoleSettings/64.23.1376.877@64.23.1376.877" timestamp="1607857697977" />
-    <state width="1321" height="651" key="GridCell.Tab.0.bottom" timestamp="1607857742482">
+    <state width="1321" height="235" key="GridCell.Tab.0.bottom" timestamp="1607869103943">
       <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state width="1388" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607855069043" />
-    <state width="1321" height="651" key="GridCell.Tab.0.bottom/64.23.1376.877@64.23.1376.877" timestamp="1607857742482" />
+    <state width="1321" height="235" key="GridCell.Tab.0.bottom/64.23.1376.877@64.23.1376.877" timestamp="1607869103943" />
     <state width="1321" height="247" key="GridCell.Tab.0.bottom/67.23.1373.877@67.23.1373.877" timestamp="1605923198035" />
-    <state width="1321" height="651" key="GridCell.Tab.0.center" timestamp="1607857742480">
+    <state width="1321" height="235" key="GridCell.Tab.0.center" timestamp="1607869103943">
       <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state width="1388" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607855069040" />
-    <state width="1321" height="651" key="GridCell.Tab.0.center/64.23.1376.877@64.23.1376.877" timestamp="1607857742480" />
+    <state width="1321" height="235" key="GridCell.Tab.0.center/64.23.1376.877@64.23.1376.877" timestamp="1607869103943" />
     <state width="1321" height="247" key="GridCell.Tab.0.center/67.23.1373.877@67.23.1373.877" timestamp="1605923198035" />
-    <state width="1321" height="651" key="GridCell.Tab.0.left" timestamp="1607857742479">
+    <state width="1321" height="235" key="GridCell.Tab.0.left" timestamp="1607869103942">
       <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state width="1388" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607855069039" />
-    <state width="1321" height="651" key="GridCell.Tab.0.left/64.23.1376.877@64.23.1376.877" timestamp="1607857742479" />
+    <state width="1321" height="235" key="GridCell.Tab.0.left/64.23.1376.877@64.23.1376.877" timestamp="1607869103942" />
     <state width="1321" height="247" key="GridCell.Tab.0.left/67.23.1373.877@67.23.1373.877" timestamp="1605923198034" />
-    <state width="1321" height="651" key="GridCell.Tab.0.right" timestamp="1607857742481">
+    <state width="1321" height="235" key="GridCell.Tab.0.right" timestamp="1607869103943">
       <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state width="1388" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607855069041" />
-    <state width="1321" height="651" key="GridCell.Tab.0.right/64.23.1376.877@64.23.1376.877" timestamp="1607857742481" />
+    <state width="1321" height="235" key="GridCell.Tab.0.right/64.23.1376.877@64.23.1376.877" timestamp="1607869103943" />
     <state width="1321" height="247" key="GridCell.Tab.0.right/67.23.1373.877@67.23.1373.877" timestamp="1605923198035" />
-    <state width="1321" height="651" key="GridCell.Tab.1.bottom" timestamp="1607857742371">
+    <state width="1321" height="235" key="GridCell.Tab.1.bottom" timestamp="1607869103944">
       <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state width="1388" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607855068925" />
-    <state width="1321" height="651" key="GridCell.Tab.1.bottom/64.23.1376.877@64.23.1376.877" timestamp="1607857742371" />
+    <state width="1321" height="235" key="GridCell.Tab.1.bottom/64.23.1376.877@64.23.1376.877" timestamp="1607869103944" />
     <state width="1321" height="247" key="GridCell.Tab.1.bottom/67.23.1373.877@67.23.1373.877" timestamp="1605923198037" />
-    <state width="1321" height="651" key="GridCell.Tab.1.center" timestamp="1607857742371">
+    <state width="1321" height="235" key="GridCell.Tab.1.center" timestamp="1607869103944">
       <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state width="1388" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1607855068924" />
-    <state width="1321" height="651" key="GridCell.Tab.1.center/64.23.1376.877@64.23.1376.877" timestamp="1607857742371" />
+    <state width="1321" height="235" key="GridCell.Tab.1.center/64.23.1376.877@64.23.1376.877" timestamp="1607869103944" />
     <state width="1321" height="247" key="GridCell.Tab.1.center/67.23.1373.877@67.23.1373.877" timestamp="1605923198036" />
-    <state width="1321" height="651" key="GridCell.Tab.1.left" timestamp="1607857742370">
+    <state width="1321" height="235" key="GridCell.Tab.1.left" timestamp="1607869103944">
       <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state width="1388" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1607855068923" />
-    <state width="1321" height="651" key="GridCell.Tab.1.left/64.23.1376.877@64.23.1376.877" timestamp="1607857742370" />
+    <state width="1321" height="235" key="GridCell.Tab.1.left/64.23.1376.877@64.23.1376.877" timestamp="1607869103944" />
     <state width="1321" height="247" key="GridCell.Tab.1.left/67.23.1373.877@67.23.1373.877" timestamp="1605923198036" />
-    <state width="1321" height="651" key="GridCell.Tab.1.right" timestamp="1607857742371">
+    <state width="1321" height="235" key="GridCell.Tab.1.right" timestamp="1607869103944">
       <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state width="1388" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607855068924" />
-    <state width="1321" height="651" key="GridCell.Tab.1.right/64.23.1376.877@64.23.1376.877" timestamp="1607857742371" />
+    <state width="1321" height="235" key="GridCell.Tab.1.right/64.23.1376.877@64.23.1376.877" timestamp="1607869103944" />
     <state width="1321" height="247" key="GridCell.Tab.1.right/67.23.1373.877@67.23.1373.877" timestamp="1605923198037" />
     <state width="1388" height="160" key="GridCell.Tab.2.bottom" timestamp="1605613984420">
       <screen x="67" y="23" width="1373" height="877" />
@@ -484,10 +495,11 @@
     </state>
     <state x="0" y="0" width="1440" height="900" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607855581776" />
     <state x="71" y="23" width="1342" height="877" key="SettingsEditor/64.23.1376.877@64.23.1376.877" timestamp="1607864573545" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1607825392994">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="274" y="147" key="Vcs.Push.Dialog.v2" timestamp="1607864852952">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607825392994" />
+    <state x="274" y="147" key="Vcs.Push.Dialog.v2/64.23.1376.877@64.23.1376.877" timestamp="1607864852952" />
     <state x="10" y="123" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607854821816">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -504,10 +516,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="750" height="535" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1606663708422" />
-    <state x="0" y="36" key="new project wizard" timestamp="1606305623696">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="64" y="58" key="new project wizard" timestamp="1607864681560">
+      <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state x="0" y="36" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1606305623696" />
+    <state x="64" y="58" key="new project wizard/64.23.1376.877@64.23.1376.877" timestamp="1607864681560" />
     <state x="437" y="322" width="789" height="510" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607864572002">
       <screen x="64" y="23" width="1376" height="877" />
     </state>
