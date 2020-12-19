@@ -17,16 +17,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f82c5e-2eb6-4185-9673-b5fff6bfc2ad" name="Default Changelist" comment="husky Yue commit&#10;the park-coupon">
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/coupon-settlement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/SettlementApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/constant/RuleFlag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/AbstractExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/RuleExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/impl/LiJianExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/impl/ManJianExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/impl/ZheKouExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/controller/SettlementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/ExecutorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/impl/ManJianZheKouExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/test/java/com/tjslzhkj/coupon/SettlementApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/test/java/com/tjslzhkj/coupon/server/ExecuteManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/AbstractPostZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/AbstractPostZuulFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/AbstractPreZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/AbstractPreZuulFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-gateway/src/main/java/com/tjslzhkj/coupon/filter/TokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/impl/LiJianExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/main/java/com/tjslzhkj/coupon/executor/impl/LiJianExecutor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4039321" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.21818182" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
@@ -89,18 +92,19 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/park-coupon-service" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tjslzhkj.coupon" />
       <recent name="com.tjslzhkj.coupon.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/park-coupon-service/coupon-template/src/main/resources" />
       <recent name="$PROJECT_DIR$/park-coupon-service/coupon-common/src/main/java/com/tjslzhkj/park/coupon/vo" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/park-coupon-service" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.testFindAvailableTemplate">
+  <component name="RunManager" selected="Spring Boot.ZuulGatewayApplication (1)">
     <configuration name="DistributionApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coupon-distribution" />
       <extension name="coverage">
@@ -116,32 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistributionApplicationTests.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coupon-distribution" />
+    <configuration name="ExecuteManagerTest.testComputeRule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coupon-settlement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tjslzhkj.coupon.*" />
+          <option name="PATTERN" value="com.tjslzhkj.coupon.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon" />
-      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.DistributionApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoad" />
+      <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon.server" />
+      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.server.ExecuteManagerTest" />
+      <option name="METHOD_NAME" value="testComputeRule" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplateApplicationTests.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coupon-template" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tjslzhkj.coupon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SettlementApplicationTests.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coupon-settlement" />
       <option name="PACKAGE_NAME" value="com.tjslzhkj.coupon" />
-      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.TemplateApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.tjslzhkj.coupon.SettlementApplicationTests" />
       <option name="METHOD_NAME" value="contextLoad" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -197,6 +195,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SettlementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="coupon-settlement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tjslzhkj.coupon.SettlementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="coupon-template" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tjslzhkj.coupon.TemplateApplication" />
@@ -220,8 +225,6 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.DistributionApplicationTests" />
-      <item itemvalue="JUnit.DistributionApplicationTests.contextLoad" />
-      <item itemvalue="JUnit.TemplateApplicationTests.contextLoad" />
       <item itemvalue="JUnit.UserServiceTest.testFindAvailableTemplate" />
       <item itemvalue="JUnit.UserServiceTest.testFindCouponByStatus" />
       <item itemvalue="Spring Boot.DistributionApplication" />
@@ -229,14 +232,17 @@
       <item itemvalue="Spring Boot.TemplateApplication" />
       <item itemvalue="Spring Boot.ZuulGatewayApplication" />
       <item itemvalue="Spring Boot.ZuulGatewayApplication (1)" />
+      <item itemvalue="JUnit.SettlementApplicationTests.contextLoad" />
+      <item itemvalue="Spring Boot.SettlementApplication" />
+      <item itemvalue="JUnit.ExecuteManagerTest.testComputeRule" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExecuteManagerTest.testComputeRule" />
+        <item itemvalue="JUnit.SettlementApplicationTests.contextLoad" />
         <item itemvalue="JUnit.UserServiceTest.testFindCouponByStatus" />
         <item itemvalue="JUnit.UserServiceTest.testFindAvailableTemplate" />
         <item itemvalue="JUnit.DistributionApplicationTests" />
-        <item itemvalue="JUnit.TemplateApplicationTests.contextLoad" />
-        <item itemvalue="JUnit.DistributionApplicationTests.contextLoad" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +311,11 @@
       <workItem from="1607603562552" duration="3953000" />
       <workItem from="1607822592423" duration="16976000" />
       <workItem from="1607856153674" duration="6621000" />
-      <workItem from="1607951475576" duration="4134000" />
+      <workItem from="1607951475576" duration="4393000" />
+      <workItem from="1608040517426" duration="4268000" />
+      <workItem from="1608121111730" duration="7624000" />
+      <workItem from="1608239614879" duration="1641000" />
+      <workItem from="1608295209293" duration="16799000" />
     </task>
     <task id="LOCAL-00001" summary="husky Yue commit&#10;the park-coupon">
       <created>1607430598547</created>
@@ -328,7 +338,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607864823233</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="优惠券结算执行器（满减，折扣，立减）yuezejian 2020/12/14 22:21:45">
+      <created>1607955728162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607955728162</updated>
+    </task>
+    <task id="LOCAL-00005" summary="满减 + 折扣 优惠券执行器">
+      <created>1608125222583</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608125222583</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Revert &quot;满减 + 折扣 优惠券执行器&quot; HuskyYue 2020/12/16 21:28&#10;&#10;This reverts commit ae659fc1">
+      <created>1608125337120</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608125337120</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +398,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="coupon-distribution yuezejian" />
     <MESSAGE value="husky Yue commit&#10;the park-coupon" />
-    <option name="LAST_COMMIT_MESSAGE" value="husky Yue commit&#10;the park-coupon" />
+    <MESSAGE value="优惠券结算执行器（满减，折扣，立减）yuezejain 2020/12/14 22:21:45" />
+    <MESSAGE value="优惠券结算执行器（满减，折扣，立减）yuezejian 2020/12/14 22:21:45" />
+    <MESSAGE value="满减 + 折扣 优惠券执行器" />
+    <MESSAGE value="Revert &quot;满减 + 折扣 优惠券执行器&quot; HuskyYue 2020/12/16 21:28&#10;&#10;This reverts commit ae659fc1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;满减 + 折扣 优惠券执行器&quot; HuskyYue 2020/12/16 21:28&#10;&#10;This reverts commit ae659fc1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="637" y="342" key="#Assign_Data_Sources" timestamp="1606557431145">
@@ -389,23 +424,27 @@
     <state x="180" y="105" width="1223" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606310498697" />
     <state x="236" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/61.23.1379.877@61.23.1379.877" timestamp="1607855842830" />
     <state x="236" y="125" width="1197" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/64.23.1376.877@64.23.1376.877" timestamp="1607858203644" />
-    <state x="486" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1607955261859">
+    <state x="486" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1608154468820">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="486" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1607955261859" />
+    <state x="486" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1608154468820" />
     <state x="526" y="118" key="#com.intellij.ide.util.MemberChooser/61.23.1379.877@61.23.1379.877" timestamp="1606557387422" />
     <state x="133" y="368" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604417404132">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="133" y="368" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1604417404132" />
-    <state x="336" y="303" width="768" height="306" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605922365295">
+    <state x="336" y="303" width="768" height="306" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608334628290">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="336" y="303" width="768" height="306" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1605922365295" />
+    <state x="336" y="303" width="768" height="306" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1608334628290" />
     <state x="392" y="145" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606571833143">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="392" y="145" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1606571833143" />
+    <state x="42" y="0" key="CommitChangelistDialog2" timestamp="1608125337013">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="42" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1608125337013" />
     <state x="540" y="332" key="Github.ShareDialog" timestamp="1607347762317">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -418,92 +457,92 @@
       <screen x="64" y="23" width="1376" height="877" />
     </state>
     <state x="300" y="121" key="GrepConsoleSettings/64.23.1376.877@64.23.1376.877" timestamp="1607857697977" />
-    <state width="1321" height="235" key="GridCell.Tab.0.bottom" timestamp="1607869103943">
-      <screen x="64" y="23" width="1376" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.0.bottom" timestamp="1608369594058">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607855069043" />
+    <state width="1388" height="484" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608369594058" />
     <state width="1321" height="235" key="GridCell.Tab.0.bottom/64.23.1376.877@64.23.1376.877" timestamp="1607869103943" />
     <state width="1321" height="247" key="GridCell.Tab.0.bottom/67.23.1373.877@67.23.1373.877" timestamp="1605923198035" />
-    <state width="1321" height="235" key="GridCell.Tab.0.center" timestamp="1607869103943">
-      <screen x="64" y="23" width="1376" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.0.center" timestamp="1608369594057">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607855069040" />
+    <state width="1388" height="484" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608369594057" />
     <state width="1321" height="235" key="GridCell.Tab.0.center/64.23.1376.877@64.23.1376.877" timestamp="1607869103943" />
     <state width="1321" height="247" key="GridCell.Tab.0.center/67.23.1373.877@67.23.1373.877" timestamp="1605923198035" />
-    <state width="1321" height="235" key="GridCell.Tab.0.left" timestamp="1607869103942">
-      <screen x="64" y="23" width="1376" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.0.left" timestamp="1608369594056">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607855069039" />
+    <state width="1388" height="484" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608369594056" />
     <state width="1321" height="235" key="GridCell.Tab.0.left/64.23.1376.877@64.23.1376.877" timestamp="1607869103942" />
     <state width="1321" height="247" key="GridCell.Tab.0.left/67.23.1373.877@67.23.1373.877" timestamp="1605923198034" />
-    <state width="1321" height="235" key="GridCell.Tab.0.right" timestamp="1607869103943">
-      <screen x="64" y="23" width="1376" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.0.right" timestamp="1608369594057">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607855069041" />
+    <state width="1388" height="484" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608369594057" />
     <state width="1321" height="235" key="GridCell.Tab.0.right/64.23.1376.877@64.23.1376.877" timestamp="1607869103943" />
     <state width="1321" height="247" key="GridCell.Tab.0.right/67.23.1373.877@67.23.1373.877" timestamp="1605923198035" />
-    <state width="1321" height="235" key="GridCell.Tab.1.bottom" timestamp="1607869103944">
-      <screen x="64" y="23" width="1376" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.1.bottom" timestamp="1608369593924">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607855068925" />
+    <state width="1388" height="484" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608369593924" />
     <state width="1321" height="235" key="GridCell.Tab.1.bottom/64.23.1376.877@64.23.1376.877" timestamp="1607869103944" />
     <state width="1321" height="247" key="GridCell.Tab.1.bottom/67.23.1373.877@67.23.1373.877" timestamp="1605923198037" />
-    <state width="1321" height="235" key="GridCell.Tab.1.center" timestamp="1607869103944">
-      <screen x="64" y="23" width="1376" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.1.center" timestamp="1608369593923">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1607855068924" />
+    <state width="1388" height="484" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1608369593923" />
     <state width="1321" height="235" key="GridCell.Tab.1.center/64.23.1376.877@64.23.1376.877" timestamp="1607869103944" />
     <state width="1321" height="247" key="GridCell.Tab.1.center/67.23.1373.877@67.23.1373.877" timestamp="1605923198036" />
-    <state width="1321" height="235" key="GridCell.Tab.1.left" timestamp="1607869103944">
-      <screen x="64" y="23" width="1376" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.1.left" timestamp="1608369593923">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1607855068923" />
+    <state width="1388" height="484" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1608369593923" />
     <state width="1321" height="235" key="GridCell.Tab.1.left/64.23.1376.877@64.23.1376.877" timestamp="1607869103944" />
     <state width="1321" height="247" key="GridCell.Tab.1.left/67.23.1373.877@67.23.1373.877" timestamp="1605923198036" />
-    <state width="1321" height="235" key="GridCell.Tab.1.right" timestamp="1607869103944">
-      <screen x="64" y="23" width="1376" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.1.right" timestamp="1608369593924">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607855068924" />
+    <state width="1388" height="484" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1608369593924" />
     <state width="1321" height="235" key="GridCell.Tab.1.right/64.23.1376.877@64.23.1376.877" timestamp="1607869103944" />
     <state width="1321" height="247" key="GridCell.Tab.1.right/67.23.1373.877@67.23.1373.877" timestamp="1605923198037" />
-    <state width="1388" height="160" key="GridCell.Tab.2.bottom" timestamp="1605613984420">
-      <screen x="67" y="23" width="1373" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.2.bottom" timestamp="1608369593926">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="212" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605104976878" />
+    <state width="1388" height="484" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608369593926" />
     <state width="1388" height="160" key="GridCell.Tab.2.bottom/67.23.1373.877@67.23.1373.877" timestamp="1605613984420" />
-    <state width="1388" height="160" key="GridCell.Tab.2.center" timestamp="1605613984416">
-      <screen x="67" y="23" width="1373" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.2.center" timestamp="1608369593925">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="212" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1605104976878" />
+    <state width="1388" height="484" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1608369593925" />
     <state width="1388" height="160" key="GridCell.Tab.2.center/67.23.1373.877@67.23.1373.877" timestamp="1605613984416" />
-    <state width="1388" height="160" key="GridCell.Tab.2.left" timestamp="1605613984415">
-      <screen x="67" y="23" width="1373" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.2.left" timestamp="1608369593925">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="212" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1605104976877" />
+    <state width="1388" height="484" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1608369593925" />
     <state width="1388" height="160" key="GridCell.Tab.2.left/67.23.1373.877@67.23.1373.877" timestamp="1605613984415" />
-    <state width="1388" height="160" key="GridCell.Tab.2.right" timestamp="1605613984417">
-      <screen x="67" y="23" width="1373" height="877" />
+    <state width="1388" height="484" key="GridCell.Tab.2.right" timestamp="1608369593925">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="212" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1605104976878" />
+    <state width="1388" height="484" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1608369593925" />
     <state width="1388" height="160" key="GridCell.Tab.2.right/67.23.1373.877@67.23.1373.877" timestamp="1605613984417" />
     <state x="205" y="130" key="IDE.errors.dialog" timestamp="1604583758229">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="205" y="130" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1604583758229" />
-    <state x="71" y="23" width="1342" height="877" key="SettingsEditor" timestamp="1607864573545">
-      <screen x="64" y="23" width="1376" height="877" />
-    </state>
-    <state x="0" y="0" width="1440" height="900" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607855581776" />
-    <state x="71" y="23" width="1342" height="877" key="SettingsEditor/64.23.1376.877@64.23.1376.877" timestamp="1607864573545" />
-    <state x="274" y="147" key="Vcs.Push.Dialog.v2" timestamp="1607864852952">
-      <screen x="64" y="23" width="1376" height="877" />
-    </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607825392994" />
-    <state x="274" y="147" key="Vcs.Push.Dialog.v2/64.23.1376.877@64.23.1376.877" timestamp="1607864852952" />
-    <state x="10" y="123" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607854821816">
+    <state x="0" y="0" width="1342" height="877" key="SettingsEditor" timestamp="1608347663157">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="10" y="123" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1607854821816" />
+    <state x="0" y="0" width="1440" height="900" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608347663157" />
+    <state x="71" y="23" width="1342" height="877" key="SettingsEditor/64.23.1376.877@64.23.1376.877" timestamp="1607864573545" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1608125358372">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608125358372" />
+    <state x="274" y="147" key="Vcs.Push.Dialog.v2/64.23.1376.877@64.23.1376.877" timestamp="1607864852952" />
+    <state x="10" y="123" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1608364246040">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="10" y="123" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1608364246040" />
     <state x="335" y="142" width="963" height="616" key="find.popup" timestamp="1607827573204">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -557,6 +596,11 @@
           <url>file://$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/impl/RedisServiceImpl.java</url>
           <line>49</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/park-coupon-service/coupon-settlement/src/test/java/com/tjslzhkj/coupon/server/ExecuteManagerTest.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/park-coupon-service/coupon-distribution/src/main/java/com/tjslzhkj/coupon/service/IUserService.java</url>

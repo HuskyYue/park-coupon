@@ -53,6 +53,8 @@ public class LiJianExecutor extends AbstractExecutor implements RuleExecutor {
         settlement.setCost(retain2Decimals(
                 afterQuota > minCost() ? afterQuota : minCost()
         ));
+        log.debug("Use LiJian Coupon Make Goods Cost From {} To {}",
+                goodsSum, settlement.getCost());
         return settlement;
     }
 }

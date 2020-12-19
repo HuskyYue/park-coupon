@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Slf4j
 @Component
-public class TokenFilter extends AbstractZuulFilter{
+public class TokenFilter extends AbstractPreZuulFilter{
     /**
-     * 不希望在 run() 方法中有具体的执行细节，所以返回一个相同类型的抽象
+     * 判断 token 是否为空
      *
      */
     @Override
@@ -29,19 +29,6 @@ public class TokenFilter extends AbstractZuulFilter{
             return fail(401,"error: token is empty");
         }
           return success();
-    }
-
-    /**
-     * to classify a filter by type. Standard types in Zuul are "pre" for pre-routing filtering,
-     * "route" for routing to an origin, "post" for post-routing filters, "error" for error handling.
-     * We also support a "static" type for static responses see  StaticResponseFilter.
-     * Any filterType made be created or added and run by calling FilterProcessor.runFilters(type)
-     *
-     * @return A String representing that type
-     */
-    @Override
-    public String filterType() {
-        return null;
     }
 
     /**

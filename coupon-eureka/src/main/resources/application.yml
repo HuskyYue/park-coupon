@@ -19,5 +19,9 @@ eureka:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
+    # 是否开启自我保护模式
     enable-self-preservation: true
-#    renewal-percent-threshold: 0.45
+    # Renews threshold: server 期望在每分钟中收到的心跳次数
+    #Renews (last min): 上一分钟内收到的心跳次数
+    # eureka.server.renewalPercentThreshold 定义了renews 和 renews threshold 的比值，默认为 0.85
+    renewal-percent-threshold: 0.45

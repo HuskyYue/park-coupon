@@ -1,5 +1,5 @@
 server:
-  port: 9000
+  port: 8668
 
 spring:
   application:
@@ -13,13 +13,23 @@ eureka:
 zuul:
   prefix: /park
   routes:
-    #优惠券模板微服务路由配置定义
+    # 优惠券模板微服务路由配置定义
     template:
       path: /coupon-template/**
       serviceId: eureka-client-coupon-template
       #是否跳过前缀进行转发
       strip-prefix: false
       #/coupon-template/a/b 当strip-prefix默认为true,所以转发后变为 /a/b
+    # 优惠券分发微服务路由配置定义
+    distribution:
+      path: /coupon-distribution/**
+      serviceId: eureka-client-coupon-distribution
+      strip-prefix: false
+    # 优惠券结算微服务服务器路由配置定义
+    settlement:
+      path: /coupon-settlement/**
+      serviceId: eureka-client-coupon-settlement
+      strip-prefix: false
   host:
     connect-timeout-millis: 15000
     socket-timeout-millis: 60000
