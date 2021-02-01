@@ -1,17 +1,12 @@
 package com.tjslzhkj.coupon.filter;
-
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 
 /**
- * 前置拦截器抽象基类
- * **
- * Yuezejian  Created in 2020/11/1 下午10:56
+ * 前置拦截器抽象类
  */
-public abstract class AbstractPreZuulFilter extends AbstractZuulFilter {
-
+public abstract class AbstractPreZuulFilter extends AbstractZuulFilter{
     @Override
     public String filterType() {
         return FilterConstants.PRE_TYPE;
     }
 }
-

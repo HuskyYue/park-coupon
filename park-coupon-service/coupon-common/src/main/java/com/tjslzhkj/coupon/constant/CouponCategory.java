@@ -28,6 +28,7 @@ public enum CouponCategory {
      */
     private String code;
 
+
     public static CouponCategory of(String code) {
         Objects.requireNonNull(code);
         return Stream.of(values())

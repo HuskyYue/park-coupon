@@ -28,7 +28,8 @@ public class SettlementController {
     }
 
     /**
-     * url:
+     * url:127.0.0.1:7003/coupon-settlement/settlement/compute
+     * url:127.0.0.1:8668/park/coupon-settlement/settlement/compute
      * <h2>优惠券结算</h2>
      * @param settlement {@link SettlementInfo}
      * @return

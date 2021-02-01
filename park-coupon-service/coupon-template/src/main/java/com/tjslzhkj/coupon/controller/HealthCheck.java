@@ -2,6 +2,8 @@ package com.tjslzhkj.coupon.controller;
 
 import com.tjslzhkj.coupon.exception.CouponException;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -19,9 +21,10 @@ import java.util.Map;
  * **
  * Yuezejian  Created in 2020/11/19 下午10:02
  */
-@Slf4j
 @RestController
 public class HealthCheck {
+    public static final Logger LOG = LoggerFactory.getLogger(HealthCheck.class);
+
     /** 服务发现客户端 */
     private final DiscoveryClient client;
 
@@ -37,30 +40,30 @@ public class HealthCheck {
     /**
      * <h2>健康检查接口</h2>
      * 127.0.0.1:7001/coupon-template/health
-     * 127.0.0.1:9000/coupon-template/health
+     * 127.0.0.1:8668/park/coupon-template/health
      * */
     @GetMapping("/health")
     public String health() {
-        log.debug("view health api");
+        LOG.debug("view health api");
         return "CouponTemplate Is OK!";
     }
 
     /**
      * <h2>异常测试接口</h2>
      * 127.0.0.1:7001/coupon-template/exception
-     * 127.0.0.1:9000/coupon-template/exception
+     * 127.0.0.1:8668/park/coupon-template/exception
      * */
     @GetMapping("/exception")
     public String exception() throws CouponException {
 
-        log.debug("view exception api");
+        LOG.debug("view exception api");
         throw new CouponException("CouponTemplate Has Some Problem");
     }
 
     /**
      * <h2>获取 Eureka Server 上的微服务元信息</h2>
      * 127.0.0.1:7001/coupon-template/info
-     * 127.0.0.1:9000/coupon-template/info
+     * 127.0.0.1:8668/park/coupon-template/info
      * */
     @GetMapping("/info")
     public List<Map<String, Object>> info() {
